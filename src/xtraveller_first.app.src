@@ -1,0 +1,12 @@
+{application, xtraveller_first,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { xtraveller_first_app, []}},
+  {env, []}
+ ]}.
